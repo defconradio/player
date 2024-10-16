@@ -3,8 +3,8 @@
 import requests
 import json
 
-url = 'https://x.com/redGobot/status/1842979888321749128'
-
+#url = 'https://x.com/redGobot/status/1842979888321749128'
+url = 'https://x.com/redGobot/status/1846647072373592353'
 params = {
     'url': url,
     'hide_media':False,
@@ -33,6 +33,7 @@ html ='''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>DEF CON Radio</title>
 </head>
 <body>
