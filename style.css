@@ -1,7 +1,7 @@
 body {background-color: #222222;} 
 .chat {
   padding-top: 50px;
-  padding-right: 30px;
+  padding-right: 0px;
   max-width: 600px;
   position: absolute;
   right: 50px;
