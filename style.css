@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Ubuntu Sans Mono';
+    src: url(./fonts/UbuntuSansMono-VariableFont_wght.ttf);
+}
+.big {
+  font-size: 55px;
+  margin-top: 70px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+.small {
+  font-size: 18px;
+  margin-top: 0px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
 body {background-color: #222222;} 
 .chat {
   padding-top: 50px;

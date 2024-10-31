@@ -38,6 +38,11 @@ html ='''
     <title>DEF CON Radio</title>
 </head>
 <body>
+  <center>
+    <p class="big">This is totally not a PSYOP Right? RIGHT?</p>
+    <p class="small">*for a better "experience" use stereo headphones</p>
+  </center>
+
     %s
   <div class="chat">
     <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" 
