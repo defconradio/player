@@ -48,6 +48,7 @@ html ='''
     <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" 
             data-custom-base="nevent1qqsvz4kzyv9h8vske4et95nq9393y6ps28880l7qcy3qeksw2kc6rvszyqvcjq6w26u0vpk8yn695ykwsjs3sstzr2hhrq4p7ety8q9ecsnkkqcyqqqqqqgtjlel5"
             data-placeholder="The Love Placeholder is here!"
+            data-skip="#"
             data-relays='["wss://nos.lol"]'>
     </script>
   </div>
