@@ -4,14 +4,15 @@ import requests
 import json
 
 #url = 'https://x.com/redGobot/status/1842979888321749128'
-url = 'https://x.com/redGobot/status/1846647072373592353'
+#url = 'https://x.com/redGobot/status/1848225918457958535'
+url =  'https://x.com/redGobot/status/1851782461690110257'
 params = {
     'url': url,
     'hide_media':False,
     'hide_thread':True,
     'omit_script':False,
     'align':'center',
-    'lang':'es',
+    'lang':'en',
     'theme':'dark',
     'dnt':True,
     'omit_script':True,
@@ -29,7 +30,7 @@ html ='''
 <!DOCTYPE html>
 <html>
 <head>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,6 +39,14 @@ html ='''
 </head>
 <body>
     %s
+  <div class="chat">
+    <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" 
+            data-custom-base="nevent1qqsvz4kzyv9h8vske4et95nq9393y6ps28880l7qcy3qeksw2kc6rvszyqvcjq6w26u0vpk8yn695ykwsjs3sstzr2hhrq4p7ety8q9ecsnkkqcyqqqqqqgtjlel5"
+            data-placeholder="The Love Placeholder is here!"
+            data-relays='["wss://nos.lol"]'>
+    </script>
+  </div>
+
 </body>
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
