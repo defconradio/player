@@ -1,11 +1,12 @@
 #this fix oembeb video width bug 
-#TODO fix this sorcery
+#TODO fix this sorcery - add variables asap this is crap
 import requests
 import json
 
 #url = 'https://x.com/redGobot/status/1842979888321749128'
 #url = 'https://x.com/redGobot/status/1848225918457958535'
-url =  'https://x.com/redGobot/status/1851782461690110257'
+url =  'https://x.com/redGobot/status/1852794600303325338'
+
 params = {
     'url': url,
     'hide_media':False,
