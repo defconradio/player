@@ -5,7 +5,7 @@ import json
 
 #url = 'https://x.com/redGobot/status/1842979888321749128'
 #url = 'https://x.com/redGobot/status/1848225918457958535'
-url =  'https://x.com/redGobot/status/1852794600303325338'
+url =  'https://x.com/redGobot/status/1855377887580586132'
 
 params = {
     'url': url,
