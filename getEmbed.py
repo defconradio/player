@@ -5,7 +5,7 @@ import json
 
 #url = 'https://x.com/redGobot/status/1842979888321749128'
 #url = 'https://x.com/redGobot/status/1848225918457958535'
-url =  'https://x.com/redGobot/status/1855377887580586132'
+url =  'https://x.com/greenGobot/status/1855377011654443411'
 
 params = {
     'url': url,
@@ -24,7 +24,7 @@ json_data = json.loads(response.text)
 
 pre_blockquote = json_data['html']
 pre_blockquote = pre_blockquote.split('class="twitter-tweet"')
-blockquote     = f'{pre_blockquote[0]} class="twitter-tweet" data-media-max-width="1080" {pre_blockquote[1]}'
+blockquote     = f'{pre_blockquote[0]} class="twitter-tweet" data-media-max-width="1920" {pre_blockquote[1]}'
 print(blockquote)
 
 html ='''
@@ -39,12 +39,14 @@ html ='''
     <title>DEF CON Radio</title>
 </head>
 <body>
+
   <center>
-    <p class="big">This is totally not a PSYOP Right? RIGHT?</p>
-    <p class="small">*for a better "experience" use stereo headphones</p>
+   %s
+   <p class="small">*for a better "experience" use stereo headphones</p>
+   <p class="big">This is totally not a PSYOP Right? RIGHT?</p>
   </center>
 
-    %s
+
   <div class="chat">
     <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" 
             data-custom-base="nevent1qqsvz4kzyv9h8vske4et95nq9393y6ps28880l7qcy3qeksw2kc6rvszyqvcjq6w26u0vpk8yn695ykwsjs3sstzr2hhrq4p7ety8q9ecsnkkqcyqqqqqqgtjlel5"
