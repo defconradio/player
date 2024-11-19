@@ -42,7 +42,8 @@ html ='''
 
   <center>
    %s
-   <p class="small">*for a better "experience" use stereo headphones</p>
+   <p class="small">* Warning! this content may heal the damage caused by legacy media.</p>
+   <p class="small">** for a better "experience" use stereo headphones</p>
    <p class="big">This is totally not a PSYOP Right? RIGHT?</p>
   </center>
 

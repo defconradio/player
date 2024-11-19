@@ -3,8 +3,8 @@
     src: url(./fonts/UbuntuSansMono-VariableFont_wght.ttf);
 }
 .big {
-  font-size: 55px;
-  margin-top: 70px;
+  font-size: 10vw;
+  margin-top: 10px;
   font-family: "Ubuntu Sans Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -14,7 +14,7 @@
   color: white;
 }
 .small {
-  font-size: 18px;
+  font-size: 3vw;
   margin-top: 0px;
   font-family: "Ubuntu Sans Mono", monospace;
   font-optical-sizing: auto;
